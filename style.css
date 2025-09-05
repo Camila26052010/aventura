@@ -1,34 +1,22 @@
-.labirinto-container {
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    border: 2px solid #000;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 50px;
 }
 
-.bloco-energia {
-    width: 50px;
-    height: 50px;
-    background-color: #ff0000;
-}
-.labirinto-container {
-    display: flex;
-    flex-direction: row; /* Alterado de 'column' para 'row' */
-    justify-content: flex-end; /* Alinhado para o fim do container */
-    align-items: center; /* Centralizado verticalmente */
-    height: 300px;
-    border: 2px solid #000;
+#titulo {
+    color: #333;
+    font-size: 2.5em;
+    transition: color 0.5s ease;
 }
 
-.bloco-energia {
-    width: 50px;
-    height: 50px;
-    background-color: #ff0000;
-    margin-right: 50px; /* Adicionado um espaço para mover o bloco */
-}
-
-/* Um novo estilo para a saída */
-.saida {
-    width: 50px;
-    height: 50px;
-    background-color: #00ff00;
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
 }
